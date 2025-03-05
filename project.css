@@ -1,0 +1,104 @@
+.click{
+    margin-left: 200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(121, 118, 86);
+    width: 100px;
+    height: 30px;
+    background-color: rgb(17, 89, 212);
+    border-radius:5px;
+
+}
+.click:hover{
+    background-color: #bbbcc3;
+}
+body{
+    background-color: #f5f7fb;
+
+}
+.list-projects a{
+    display: flex;
+   height: 400px;
+   width: 400px;
+   border-radius: 10px;
+  background-image: linear-gradient(white,rgb(244, 252, 245),rgb(16, 10, 10));
+   font-size: 20px;  
+}
+.list-projects a:hover{
+    box-shadow: 10px 10px 10px 10px 
+    rgb(128, 125, 125);
+    background-color: azure;
+}
+.list-projects{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+.some-projects a{
+    text-decoration: none;
+    color:rgb(222, 227, 241);
+    justify-content: center;
+   align-items: end;
+   padding: 0%;  
+}
+.title-name{
+    margin: 50px,100px;
+}
+.hospital-logo{
+    width:200px;
+    height: 200px;
+    position:absolute;
+    top: 150px;
+    
+}
+.hospital-logos{
+    width:200px;
+    height: 200px;
+    position:absolute;
+    top: 150px;
+    
+}
+
+.role {
+    font-size: 14px;
+    width: 200px;
+    display: inline-block;
+    height: 60px;
+    margin: 0%;
+   position:absolute;
+   bottom:90px;
+   left:40px;
+   top:370px
+}
+.roles{
+    font-size: 14px;
+    width: 200px;
+    display: inline-block;
+    height: 60px;
+    margin: 0%;
+   position:absolute;
+   bottom:90px;
+   left:460px;
+   top:370px
+}
+@media(max-width:800px){
+    .list-projects{
+        display: flex;
+        flex-direction:column;
+        gap: 20px;
+        margin-left: 70px;
+    } 
+    .roles {
+       position:absolute;
+       left:40px;
+       top:800px;
+    } 
+    .hospital-logos{
+        position:absolute;
+        top: 580px;
+        
+    }  
+    
+}
