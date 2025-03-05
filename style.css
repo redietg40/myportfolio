@@ -213,4 +213,23 @@ img{
     border-radius: 50%;
     
 }
+    .header{
+    /* display: grid;
+    grid-template-columns: 300px 1fr;
+    background-color: rgb(126, 34, 41); */
+    /* margin: 0%; */
+    gap:20px;
+    width: 600px;
+   
+
+}
+.header h1{
+ font-size: 27px;
+}
+footer a i{
+    padding-left:50px;
+}
+footer{
+    width: 600px;
+}
 }
