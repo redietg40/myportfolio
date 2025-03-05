@@ -83,7 +83,7 @@ body{
    left:460px;
    top:370px
 }
-@media(max-width:800px){
+@media(max-width:600px){
     .list-projects{
         display: flex;
         flex-direction:column;
@@ -92,8 +92,12 @@ body{
     } 
     .roles {
        position:absolute;
-       left:40px;
+       left:90px;
        top:800px;
+    } 
+     .role {
+    position:absolute;
+   left:90px;
     } 
     .hospital-logos{
         position:absolute;
