@@ -134,10 +134,11 @@ footer a i{
         padding-top: 100px;
         background-image: linear-gradient(white,rgb(244, 252, 245),rgb(16, 10, 10));
         height: 100%;
+        width:600px;
     }
     img.profile-image{
         height: 300px;
-        width: 300px;
+        width: 200px;
         transform: translateX(230px);
     }  
 
